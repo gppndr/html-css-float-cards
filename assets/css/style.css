@@ -1,5 +1,24 @@
+/* color palette */
+:root {
+--card-bg: #151925;
+--title: #E53170;
+--site-bg: #FFFFFE;
+}
+/* common rules */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+    background-color: var(--site-bg);
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
