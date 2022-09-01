@@ -1,13 +1,11 @@
 /* color palette */
 :root {
-    --var-bg: #FFFFFE;
-    --var-title: #E53170;
-    --var-text: #24131E;
-    --var-box: #0F0E17;
-    --var-contacts:#FFFFFE;
-    --var-email: #5CC9F3;
-    
-
+  --var-bg: #fffffe;
+  --var-title: #e53170;
+  --var-text: #24131e;
+  --var-box: #0f0e17;
+  --var-contacts: #fffffe;
+  --var-email: #5cc9f3;
 }
 /* common rules */
 * {
@@ -17,110 +15,107 @@
 }
 
 body {
-    background-color: var(--var-bg);
+  background-color: var(--var-bg);
 }
 
 .clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
+  content: "";
+  display: table;
+  clear: both;
 }
 
 /* utilities */
 .container {
-    width: 70%;
-    margin:auto;
-    margin-top: 2rem;
+  width: 70%;
+  margin: auto;
+  margin-top: 3rem;
 }
 
 img {
-    max-width: 100%;
-    width: 6rem;
+  max-width: 100%;
+  width: 6rem;
 }
 
 /* header */
 header {
-    text-align: center;
-    Font-family: 'Mitr', sans-serif;
-    margin-bottom: 3rem;
+  text-align: center;
+  margin-bottom: 3rem;
 }
 
-header>h1 {
-    font-size: 2.50rem;
-    color: var(--var-title);
-    font-weight: 900;
-    margin-bottom: 3rem;
+header > h1 {
+  font-size: 2.5rem;
+  color: var(--var-title);
+  margin-bottom: 3rem;
+  font-family: "Fredoka One", cursive;
 }
 
-header>p {
-    font-size: 1rem;
-    font-weight: 300;
-    color: var(--var-text);
+header > p {
+  font-size: 1rem;
+  font-weight: 300;
+  color: var(--var-text);
+  font-family: "Baloo 2", cursive;
 }
 
 /* main */
-main>p {
-    text-align: center;
+main > p {
+  text-align: center;
 }
 
-
-
 /* row rules*/
-.col_4{
-    width: calc(100% /3);
-    float: left;
-    padding: 0 1.5rem 2.5rem 0;
+.col_4 {
+  width: calc(100% / 3);
+  float: left;
+  padding: 0 1.5rem 2.5rem 0;
 }
 
 .contacts {
-    width: 50%;
-    float: left;
+  width: 50%;
+  float: left;
 }
 
-div>img {
-    float: left;
+div > img {
+  float: left;
 }
 
 /* cards style */
 .cards {
-    background-color: var(--var-box);
-    box-shadow: 0 0 0.5rem;
-    width: 80%;
+  background-color: var(--var-box);
+  box-shadow: 0 0 0.5rem;
+  width: 80%;
 }
 
 /* contacts style */
 .contacts {
-    padding: 0.75rem 0 0.75rem 0;
-    margin-left: 1rem;
+  padding: 0.75rem 0 0.75rem 0;
+  margin-left: 1rem;
 }
-.contacts>h2, .contacts>p {
-    color: var(--var-contacts);
-    font-family: 'Mitr', sans-serif;
+.contacts > h2,
+.contacts > p {
+  color: var(--var-contacts);
+  font-family: "Baloo 2", cursive;
 }
-.contacts>h2 {
-    vertical-align: middle;
-    font-size: 1.15rem;
-    font-weight: bolder;
+.contacts > h2 {
+  font-size: 1.15rem;
+  font-weight: bolder;
 }
-.contacts>p {
-    font-size: 0.90rem;
-    font-weight:200;
+.contacts > p {
+  font-size: 0.9rem;
+  font-weight: 200;
 }
-.contacts>a {
-    font-size: 0.90rem;
-    text-decoration: none;
-    color: var(--var-email);
+.contacts > a {
+  font-size: 0.9rem;
+  text-decoration: none;
+  color: var(--var-email);
 }
 
 /* footer */
-footer{
-    text-align: center;
-    margin-top: 10rem;
-    font-family: 'Mitr', sans-serif;
-    color: var(--var-text);
+footer {
+  text-align: center;
+  margin-top: 10rem;
+  font-family: "Baloo 2", cursive;
+  color: var(--var-text);
 }
 
-.heart{
-    color: var(--var-title);
+.heart {
+  color: var(--var-title);
 }
-
